@@ -1,4 +1,8 @@
-import java.util.List;
+package edu.universidade.application;
+
+import edu.universidade.models.Aluno;
+import edu.universidade.models.ListaDeAlunos;
+
 import java.util.Scanner;
 
 public class Main {
@@ -9,7 +13,7 @@ public class Main {
         for (int i = 1; i <= 25; i++) {
             Aluno aluno = Aluno.criarAlunoComEntrada(scanner);
             aluno.verificar3prova();
-            lista.classificarAluno(aluno);
+            lista.classificarAlunoNalista(aluno);
         }
         lista.imprimirRelatoriosDeAlunos();
         scanner.close();

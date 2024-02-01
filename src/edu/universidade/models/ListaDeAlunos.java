@@ -1,3 +1,5 @@
+package edu.universidade.models;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,9 +13,10 @@ public class ListaDeAlunos {
         this.aprovados = new ArrayList<>();
         this.reprovados = new ArrayList<>();
         this.aprovados3Prova = new ArrayList<>();
+        ;
     }
 
-    public void classificarAluno(Aluno aluno) {
+    public void classificarAlunoNalista(Aluno aluno) {
         if (aluno.passouSemTerceiraProva()) {
             aprovados.add(aluno);
         } else if (aluno.aprovadoComTerceiraProva()) {
