@@ -1,4 +1,4 @@
-Documentação do Sistema de Avaliação Estudantil
+**Documentação do Sistema de Avaliação Estudantil**
 Descrição
 O Sistema de Avaliação Estudantil é um programa simples em Java que permite avaliar as notas de 25 alunos e determinar se cada aluno foi aprovado ou reprovado com base em uma nota de corte 
 
